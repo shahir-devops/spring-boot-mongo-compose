@@ -1,6 +1,6 @@
 services:
   springapp:
-    image: shahir5890/spring-boot-app:IMAGE_TAG
+    image: shahir5890/spring-boot:IMAGE_TAG
     ports:
     - 8080:8080
     depends_on:
