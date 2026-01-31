@@ -5,7 +5,7 @@ metadata:
   namespace: demo
 spec:
   rules:
-    - host: "shahirdevops.com"
+  - host: "shahirdevops.com"
     http:
       paths:
       - pathType: Prefix
