@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: springapp
+  namespace: demo
+spec:
+  rules:
+    - host: "shahirdevops.com"
+    http:
+      paths:
+      - pathType: Prefix
+        path: "/"
+        backend:
+          service:
+            name: springappsvc
+            port:
+              number: 80
