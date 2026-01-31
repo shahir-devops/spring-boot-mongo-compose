@@ -75,7 +75,7 @@ spec:
     spec:
       containers:
       - name: springappcontainer
-        image: shahir5890/springboot:TAG
+        image: shahir5890/springapp:TAG
         ports:
         - containerPort: 8080
         resources:
