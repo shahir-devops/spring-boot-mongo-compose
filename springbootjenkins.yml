@@ -67,7 +67,7 @@ spec:
     spec:
       containers:
       - name: springapp
-        image: imageName:tag
+        image: shahir5890/springjenkins:tag
         ports:
         - containerPort: 8080
         env:
